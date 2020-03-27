@@ -6,13 +6,13 @@ export default function Main() {
     <View style={styles.container}>
       <Text>Aplication Start</Text>
     </View>
-  )
+  );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#E2F3F5',
     alignItems: 'center',
     justifyContent: 'center',
   },
