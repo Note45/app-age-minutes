@@ -1,12 +1,14 @@
 import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 
+import InputDate from '../components/InputDate'
+
 export default function Main() {
   return(
     <View style={styles.container}>
-      <Text>Aplication Start</Text>
+      <InputDate />
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
@@ -16,4 +18,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-});
+})
