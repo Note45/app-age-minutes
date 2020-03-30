@@ -8,8 +8,10 @@ The project Age Minutes receives the user's birth date and returns how many minu
 The project is all constructed with React Native and the Expo toolchain.
 
 # How the Project Is Currently
-<img src='project-prints/page-main.jpeg' width='200'>
-<img src='project-prints/page-outMinutes.jpeg' width='200'>
+<p float='left'>
+  <img src='project-prints/page-main.jpeg' width='200'>
+  <img src='project-prints/page-outMinutes.jpeg' width='200'>
+</p>
 
 # License
 MIT License
