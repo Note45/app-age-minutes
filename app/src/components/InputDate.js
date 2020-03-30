@@ -11,7 +11,7 @@ export default function InputDate({ navigation }) {
         onChangeText={text => onChangeText(text)}
         value={value}
       />
-      <TouchableOpacity style={styles.buttonCalcule} onPress={() => {navigation.navigate('OutMinutes', { ageInMinutes: 100 } )}}>
+      <TouchableOpacity style={styles.buttonCalcule} onPress={() => {navigation.navigate('OutMinutes', { ageInMinutes: value } )}}>
         <Text style={styles.textCalcule}>CALCULE</Text>
       </TouchableOpacity>
     </View>
