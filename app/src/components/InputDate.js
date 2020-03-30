@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, View, Text, TouchableOpacity, TextInput} from 'react-native';
 
-export default function InputDate() {
+export default function InputDate({ navigation }) {
   const [value, onChangeText] = React.useState('Enter your birth date');
 
   return (
@@ -11,7 +11,7 @@ export default function InputDate() {
         onChangeText={text => onChangeText(text)}
         value={value}
       />
-      <TouchableOpacity style={styles.buttonCalcule}>
+      <TouchableOpacity style={styles.buttonCalcule} onPress={() => {navigation.navigate('OutMinutes', { ageInMinutes: 100 } )}}>
         <Text style={styles.textCalcule}>CALCULE</Text>
       </TouchableOpacity>
     </View>

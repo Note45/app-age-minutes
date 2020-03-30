@@ -1,12 +1,12 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
 import InputDate from '../components/InputDate'
 
-export default function Main() {
+export default function Main({ navigation }) {
   return(
     <View style={styles.container}>
-      <InputDate />
+      <InputDate navigation={navigation}/>
     </View>
   )
 }
