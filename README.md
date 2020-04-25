@@ -11,6 +11,7 @@ The project is all constructed with React Native and the Expo toolchain.
 <p float='left'>
   <img src='project-prints/load-page.png' width='200'/>
   <img src='project-prints/page-main.png' width='200'/>
+  <img src='project-prints/select-date.jpeg' width='200'/>
   <img src='project-prints/page-outMinutes.png' width='200'/>
 </p>
 
