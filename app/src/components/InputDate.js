@@ -26,9 +26,11 @@ export default function InputDate({ navigation }) {
     <View >
       <Text style={styles.textTitle}>Enter your birth data:</Text>
       
-      <TouchableOpacity style={styles.dateOut} onPress={showDatepicker}>
-        <Text style={styles.textTitle}>{date.toDateString()}</Text>
-      </TouchableOpacity>
+      <View style={styles.dateOutView}>
+        <TouchableOpacity onPress={showDatepicker}>
+          <Text style={styles.textTitle}>{date.toDateString()}</Text>
+        </TouchableOpacity>
+      </View>
       
       {show && (
         <DateTimePicker
@@ -56,8 +58,10 @@ const styles = StyleSheet.create({
     margin: 10,
     padding: 10
   },
-  dateOut: {
+  dateOutView: {
+    borderWidth: 3,
     borderColor: '#22D1EE',
+    borderRadius: 10,
     justifyContent: 'center',
     alignItems: 'center',
     width: 300,
