@@ -9,8 +9,9 @@ The project is all constructed with React Native and the Expo toolchain.
 
 # How the Project Is Currently
 <p float='left'>
-  <img src='project-prints/page-main.jpeg' width='200'>
-  <img src='project-prints/page-outMinutes.jpeg' width='200'>
+  <img src='project-prints/load-page.png' width='200'/>
+  <img src='project-prints/page-main.png' width='200'/>
+  <img src='project-prints/page-outMinutes.png' width='200'/>
 </p>
 
 # License
