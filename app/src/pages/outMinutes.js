@@ -4,7 +4,9 @@ import { StyleSheet, View, Text } from 'react-native';
 
 export default function OutMinutes({ navigation }) {
   function getAge(dateBorne) {
-    return ((new Date()).getTime() - dateBorne.getTime())/1000/60/60/23.9344/365.25
+    let ageInYears = ((new Date()).getTime() - dateBorne.getTime())/1000/60/60/23.9344/365.25
+
+    return (ageInYears * 365.25 * 23.9344 * 60)
   }
  
   return(
